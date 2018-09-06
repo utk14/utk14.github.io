@@ -1,0 +1,173 @@
+body{
+  background-image: url("/home/niit/test/Herbihut/images/back.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  position: relative;
+  margin: 0px;
+}
+header{
+   /* background-color: #7a9b44; */
+
+    flex-direction: row;
+    width: 100%;
+    height: 62px;
+    position: fixed;
+    top: 0;   
+}
+
+.topnav{
+    overflow: hidden;
+    background-color: #49382d;
+    position:fixed;
+    width:100%;
+
+}
+.topnav a{
+    float: left;
+    display: block;
+    color: #f2f2f2;
+   /* text-align: left;*/
+    padding: 12px 14px;
+    font-size: 15px;
+    text-decoration: none;
+    width: 10%;
+    position: sticky;
+
+} 
+header a.logo{
+    font-size: 25px;
+    font-weight: bold;
+}
+li{
+    padding: 10px;  
+}
+
+header li{
+   
+    display: inline;
+    text-decoration: none;   
+}
+section.hero{
+    
+background-image: url("/home/niit/test/Herbihut/images/heroimg.jpg");
+height: 500px;
+width:100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+section div.inner{
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #49382d;
+
+}
+section div.inner h1{
+    font-size: 70px;
+}
+
+h2{
+    
+  /*  background-color: #7a9b44; */
+    text-align: center;
+    font-size: 35px;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0px;
+}
+.flex-container>div{
+    flex: 1 1 auto;
+    
+}
+
+.flex-container .prod img{
+    width: 300px;
+    height:404px;
+}
+
+
+.flex-container-quote
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+}
+
+.flex-container-quote>div
+{
+    flex: 1 1 auto;
+}
+
+.flex-container-quote .quote img{
+    width: 420px;
+    height: 404px;
+}
+
+.flex-container-foot
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+}
+
+.flex-container-foot>div
+{
+    flex: 1 1 auto;
+}
+.foot ul li{
+    
+    text-decoration-style: none
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+ 
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  .fa-snapchat-ghost {
+    background: #fffc00;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+  .fa-yahoo {
+    background: #430297;
+    color: white;
+  }
+  
+
+
